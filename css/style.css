@@ -1,5 +1,5 @@
 :root {
-  /*! --txt-shdw: 0px 2px 1.5px #292b35; */
+  --txt-shdw: 0px 2px 1.5px #292b35;
 }
 
 /*============================================*/
@@ -27,14 +27,13 @@ body {
   text-align: center;
 }
 
-#logos_ec{
-  height: 100%;
-  background-color: white;
+.floating{
+  z-index: 100;
 }
 
 @media screen and (max-width: 480px) {
   .floating {
-    width: 50px;
+    width: 110px;
     top: 10px;
     left: 10px;
     position: fixed;
@@ -42,12 +41,33 @@ body {
   }
   .img0 {
     position: relative;
-    margin-top: 5%;
-    width: 100%;
+    width: 85%;
+    margin-top: -70%;
+    margin-left: -20%;
     box-sizing: border-box;
-    top: 1em;
     z-index: 1;
   }
+
+  .sypl{
+  position: relative;
+  width: 50%;
+  margin-top: 15%;
+  z-index: 2;
+  filter: drop-shadow( 0px 5px 5px #292b35);
+}
+
+  #skills{
+  position: relative;
+  text-align: center;
+  height: 100%;
+  background-color: #292b35;
+}
+
+.skills{
+  position: relative;
+  margin-top: 50%;
+  width: 80%;
+}
 
 }
 
