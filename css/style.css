@@ -68,6 +68,16 @@ body {
   margin-top: 50%;
   width: 80%;
 }
+  
+  .scroll_buttom{
+    position: relative;
+    text-align: center;
+    top: 15%;
+  }
+  
+  .SB{
+    width: 40%;
+  }
 
 }
 

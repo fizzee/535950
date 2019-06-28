@@ -11,7 +11,7 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="css/fullpage.min.css">
 
-  <title>SYP</title>
+  <title>ShomaYamamotoPortfolio</title>
 </head>
 <body>
 
@@ -26,6 +26,13 @@
         <img src="img/planet0.svg" class="img0">
         <img src="img/SYPL.svg" class="sypl">
       </div>
+
+      <div class = "scroll_buttom" data-page="2">
+
+          <img src="img/SB.svg" class="SB">
+
+      </div>
+
     </div>
     <!--/#section1-->
 
@@ -56,11 +63,21 @@
       scrollingSpeed: 700, //スクロールのスピード
       autoScrolling: true, //スクロールした際に自動で次の要素を表示
       fitToSection: true, //要素を自動で画面に合わせて調整
-      fitToSectionDelay: 1000, //自動で画面に合わせる際のスピード
+      fitToSectionDelay: 800, //自動で画面に合わせる際のスピード
       scrollBar: false, //ブラウザのスクロールバーの表示
 
     });
     });
+
+    const $btn = $('.scroll_buttom');
+
+//ページ送りボタン
+    $btn.on('click',(e)=>{
+    e.preventDefault();
+    let movePage = $(e.currentTarget).data('page'); //data要素の番号を取り出す
+    $.fn.fullpage.moveTo(movePage); //Pageを動かすメソッドにより出した番号をつける
+  });
+
   </script>
 
 </body>
