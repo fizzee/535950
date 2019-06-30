@@ -375,15 +375,15 @@
 <filter
  inkscape:collect="always"
  style="color-interpolation-filters:sRGB"
- id="filter2471"
- x="-0.088945037"
- width="1.1778901"
- y="-0.83688118"
- height="2.6737624">
+ id="filter3151"
+ x="-0.033852216"
+ width="1.0677044"
+ y="-0.31851447"
+ height="1.6370291">
 <feGaussianBlur
  inkscape:collect="always"
- stdDeviation="9.5079829"
- id="feGaussianBlur2473" />
+ stdDeviation="3.6187099"
+ id="feGaussianBlur3153" />
 </filter>
 </defs>
 <sodipodi:namedview
@@ -393,9 +393,9 @@
  borderopacity="1.0"
  inkscape:pageopacity="0.0"
  inkscape:pageshadow="2"
- inkscape:zoom="0.32"
- inkscape:cx="359.59123"
- inkscape:cy="176.17447"
+ inkscape:zoom="0.45254834"
+ inkscape:cx="806.61816"
+ inkscape:cy="409.27949"
  inkscape:document-units="mm"
  inkscape:current-layer="layer1"
  showgrid="true"
@@ -428,7 +428,7 @@
  spacingx="2.6458334"
  spacingy="2.6458334"
  visible="true"
- originx="36.166485"
+ originx="36.166486"
  originy="44.304096"
  snapvisiblegridlinesonly="false" />
 </sodipodi:namedview>
@@ -665,8 +665,8 @@
 </g>
 </g>
 <g
- style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;filter:url(#filter2471);opacity:1"
- transform="translate(-13.904887,-5.2811187)"
+ style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;filter:url(#filter3151)"
+ transform="translate(-13.904887,-7.3977855)"
  id="g1888">
 <g
  id="g1876"
