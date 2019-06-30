@@ -72,11 +72,11 @@ body {
   .scroll_buttom{
     position: relative;
     text-align: center;
-    top: 15%;
+    top: 8%;
   }
   
   .SB{
-    width: 40%;
+    width: 50%;
   }
 
 }
