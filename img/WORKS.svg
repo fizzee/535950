@@ -388,26 +388,6 @@
  gradientTransform="matrix(1.5540137,0,0,1.5540141,690.77779,-252.46914)" />
 <linearGradient
  inkscape:collect="always"
- xlink:href="#linearGradient2671"
- id="linearGradient1854"
- gradientUnits="userSpaceOnUse"
- gradientTransform="matrix(0.77700691,0,0,0.77700691,226.16097,-179.55718)"
- x1="-184.52"
- y1="231.64"
- x2="-133.55"
- y2="281.76999" />
-<linearGradient
- inkscape:collect="always"
- xlink:href="#linearGradient2629"
- id="linearGradient1858"
- gradientUnits="userSpaceOnUse"
- gradientTransform="matrix(0.43289951,0,0,0.43289951,192.82611,-81.468737)"
- x1="-184.52"
- y1="231.64"
- x2="-133.55"
- y2="281.76999" />
-<linearGradient
- inkscape:collect="always"
  xlink:href="#linearGradient2703"
  id="linearGradient2452"
  gradientUnits="userSpaceOnUse"
@@ -740,18 +720,6 @@
  cy="3.4899659"
  rx="41.116623"
  ry="41.116619" />
-<circle
- id="circle1852"
- style="fill:url(#linearGradient1854);fill-opacity:1;fill-rule:evenodd;stroke-width:0.77700698;paint-order:normal"
- r="10.279025"
- cy="20.377272"
- cx="102.81034" />
-<circle
- id="circle1856"
- style="fill:url(#linearGradient1858);fill-opacity:1;fill-rule:evenodd;stroke-width:0.43289959;paint-order:normal"
- r="5.7268286"
- cy="29.922222"
- cx="124.10291" />
 <g
  style="opacity:0.19100001;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter2556)"
  transform="matrix(0.66445758,0,0,0.66445758,293.61917,-39.10803)"
