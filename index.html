@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142996184-1"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142996184-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-gtag('config', 'UA-142996184-1');
-</script>
-
-
+    gtag('config', 'UA-142996184-1');
+  </script>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
@@ -22,47 +19,36 @@ gtag('config', 'UA-142996184-1');
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="css/fullpage.min.css">
-  <link rel=”shortcut icon” href= "img/favicon.png">
-
+  <link rel=”shortcut icon” href="img/favicon.png">
   <title>ShomaYamamotoPortfolio</title>
 </head>
 <body>
 
-  <div>
-    <img src="img/SYP.svg" class = "floating">
-  </div>
 
+  <a href="https://fizzee.github.io/535950/"><div><img src="img/SYP.svg" class="floating"></div></a>
   <div id="fullpage">
-
-    <div class = "section">
-      <div id="planet">
-        <img src="img/planet0.svg" class="img0">
-        <img src="img/SYPL.svg" class="sypl">
-      </div>
-
-      <div class = "scroll_buttom" data-page="2">
-
-          <img src="img/SB.svg" class="SB">
-
-      </div>
-
+    <div class="section">
+      <div id="planet"> <img src="img/planet0.svg" class="img0"> <img src="img/SYPL.svg" class="sypl"> </div>
+      <div class="scroll_buttom" data-page="2"> <img src="img/SB.svg" class="SB"></div>
     </div>
     <!--/#section1-->
 
 
-    <div class = "section">
-      <div id = "works_mom">
-         <img src="img/WORKS.svg" class="works">
-     </div>
+    <div class="section">
+      <div id="white-background">
+        <div id="works_mom"><img src="img/WORKS.svg" class="works"></div>
+      </div>
     </div>
+    <!--/#section2-->
+
 
   </div>
   <!--/#pagepiling-->
-
-	<!-- js -->
+  <!-- js -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>AOS.init();</script>
-
+  <script>
+    AOS.init();
+  </script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/easings.min.js"></script>
   <script src="js/scrolloverflow.min.js"></script>
@@ -88,8 +74,6 @@ gtag('config', 'UA-142996184-1');
     let movePage = $(e.currentTarget).data('page'); //data要素の番号を取り出す
     $.fn.fullpage.moveTo(movePage); //Pageを動かすメソッドにより出した番号をつける
   });
-
   </script>
-
 </body>
 </html>

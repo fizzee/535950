@@ -29,6 +29,13 @@ body {
 
 .floating{
   z-index: 100;
+  filter: drop-shadow( 0px 0px 4px #292b35);
+}
+
+#white-background{
+  background-color: white;
+  height: 100%;
+  text-align: center;
 }
 
 @media screen and (max-width: 480px) {
@@ -68,13 +75,13 @@ body {
   margin-top: 50%;
   width: 80%;
 }
-  
+
   .scroll_buttom{
     position: relative;
     text-align: center;
     top: 8%;
   }
-  
+
   .SB{
     width: 50%;
   }
@@ -85,9 +92,10 @@ body {
 }
 
 .works{
-  width: 90%;
+  margin-top: 50%;
+  width: 80%;
 }
-  
+
 }
 
 @media screen and (min-width: 481px) and (max-width: 1024px) {
@@ -104,7 +112,7 @@ body {
     margin-top: -50%;
     z-index: 1;
   }
-  
+
    .sypl{
   position: relative;
   width: 35%;
@@ -125,17 +133,17 @@ body {
   margin-top: 50%;
   width: 80%;
 }
-  
+
   .scroll_buttom{
     position: relative;
     text-align: center;
     top: 8%;
   }
-  
+
   .SB{
     width: 35%;
   }
-  
+
   #works_mom{
   position: relative;
   text-align: center;
@@ -163,7 +171,7 @@ body {
     width: 55%;
     z-index: 1;
   }
-  
+
    .sypl{
   position: relative;
   width: 20%;
@@ -184,24 +192,25 @@ body {
   margin-top: 20%;
   width: 40%;
 }
-  
+
   .scroll_buttom{
     position: relative;
     text-align: center;
     top: 8%;
   }
-  
+
   .SB{
     width: 15%;
   }
-  
+
   #works_mom{
   position: relative;
   text-align: center;
 }
 
 .works{
-  width: 55%;
+  margin-top: 5%;
+  width: 45%;
 }
 
 
