@@ -81,11 +81,11 @@ body {
   .SB {
     width: 50%;
   }
-  #works_mom {
+  #works_mom{
     position: relative;
     text-align: center;
   }
-  .works {
+  .works , .aboutme{
     margin-top: 40%;
     width: 80%;
   }
@@ -131,11 +131,11 @@ body {
   .SB {
     width: 35%;
   }
-  #works_mom {
+  #works_mom{
     position: relative;
     text-align: center;
   }
-  .works {
+  .works , .aboutme{
     width: 70%;
     margin-top: 40%;
   }
@@ -182,11 +182,11 @@ body {
   .SB {
     width: 15%;
   }
-  #works_mom {
+  #works_mom{
     position: relative;
     text-align: center;
   }
-  .works {
+  .works , .aboutme{
     margin-top: 5%;
     width: 45%;
   }
