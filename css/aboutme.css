@@ -1,0 +1,81 @@
+html{
+  background-color: #F2FFFC !important;
+}
+
+body{
+  text-align: center;
+}
+
+
+@media screen and (max-width: 480px) {
+  
+  .mylogo{
+  width: 35%;
+  margin-top: 30%;
+  border-radius: 50%;
+  box-shadow: 5px 10px 20px rgba(0,0,0,0.25);
+}
+  
+      .name{
+    margin-top: 5%;
+    font-size: 15px;
+        font-weight: 1000;
+    color: #292b35;
+  }
+  
+  .description{
+    width: 70%;
+    margin: 0 auto;
+    word-wrap: break-word;
+  }
+  
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  
+  .mylogo{
+  width: 30%;
+  margin-top: 20%;
+  border-radius: 50%;
+  box-shadow: 5px 10px 20px rgba(0,0,0,0.25);
+}
+
+    .name{
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: 1000;
+    color: #292b35;
+  }
+  
+    .description{
+    width: 60%;
+    margin: 0 auto;
+    word-wrap: break-word;
+  }
+  
+}
+
+@media screen and (min-width: 1025px) {
+
+  .mylogo{
+  width: 15%;
+  margin-top: 10%;
+  border-radius: 50%;
+  box-shadow: 5px 10px 20px rgba(0,0,0,0.25);
+}
+  
+  .name{
+    margin-top: 3%;
+    font-size: 20px;
+    font-weight: 1000;
+    color: #292b35;
+  }
+  
+    .description{
+    width: 30%;
+    margin: 0 auto;
+    word-wrap: break-word;
+  }
+  
+}
