@@ -1,7 +1,7 @@
 html{
   text-align: center;
   background-image: url("../img/backi.svg") !important;
-  background-repeat: repeat-y;
+  background-attachment: fixed;
   background-size: 100%;
 }
 
