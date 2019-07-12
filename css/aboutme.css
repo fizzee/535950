@@ -27,7 +27,7 @@ body{
   .description{
     width: 70%;
     margin: 0 auto;
-    word-wrap: break-word;
+    text-align: justify;
   }
   
   .s-title{
