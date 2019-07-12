@@ -63,7 +63,7 @@ body{
     .description{
     width: 60%;
     margin: 0 auto;
-    word-wrap: break-word;
+    text-align: justify;
   }
   
   .s-title{
@@ -98,7 +98,7 @@ body{
     .description{
     width: 30%;
     margin: 0 auto;
-    word-wrap: break-word;
+    text-align: justify;
   }
   
   .s-title{
