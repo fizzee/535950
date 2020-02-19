@@ -6,6 +6,9 @@ body{
   text-align: center;
 }
 
+.description{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
 
 
 @media screen and (max-width: 480px) {
